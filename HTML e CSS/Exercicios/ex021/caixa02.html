@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: beige;
+        }
+        header {
+            background-color: rgb(219, 219, 195);
+            padding: 12px;
+        }
+        nav {
+            background-color: rgb(223, 223, 200);
+            color: aliceblue;
+            padding: 15px;
+
+        }
+
+        a {
+            text-decoration: none;
+            margin: 60px;
+            background-color: rgb(223, 223, 200);
+            color: aliceblue;
+            padding: 15px;
+        }
+
+        a:hover {
+            background-color: rgb(219, 219, 195);
+            text-decoration: underline;
+        }
+
+        main {
+            margin: 20px;
+            background-color: aliceblue;
+            padding: 10px;
+        }
+
+        article > h2 {
+            margin: 20px;
+            padding: 5px;
+    
+        }
+
+        article > p {
+            margin: 18px;
+            padding: 5px;
+        }
+
+        article > aside {
+            margin: 18px;
+        }
+
+        footer {
+            background-color: rgb(219, 219, 195);
+            color: white;
+            text-decoration: wavy;
+            padding: 2px;
+        }
+    </style>
+</head>
+<body>
+    <header><!--cabeçalho-->
+        <h1>Meu Site</h1> <!--titulo pricipal-->
+        <nav> <!--menu-->
+            <a href="0" target="_blank">Opção 1</a>
+            <a href="0" target="_blank">Opção 2</a>
+            <a href="0" target="_blank">Opção 3</a>
+            <a href="0" target="_blank">Opção 4</a>
+            <a href="0" target="_blank">Opção 5</a>
+        </nav>
+    </header> 
+
+    <main> <!--conteúdo principal-->
+        <section id="assuntos"> <!--sessão com conteúdo-->
+
+        </section>
+        <section id="noticias">
+                <article> <!--Artigo-->
+                    <h2>Noticia Sobre o Brasil</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt voluptatum laudantium repudiandae beatae odit hic corporis perspiciatis sed? Ipsam quod minima laboriosam aliquid possimus deleniti assumenda reiciendis sapiente. Voluptatem, animi?</p>
+                    <aside> <!--autor do artigo-->
+                        <p>Anjos Filipi</p>
+                    </aside>
+                </article>
+
+        </section>
+    </main> 
+    <footer> <!--Rodapé-->
+        <p>Desenvolvido pelo Filipi Anjos</p>
+    </footer> 
+    <div></div>
+    <span></span>
+    
+</body>
+</html>

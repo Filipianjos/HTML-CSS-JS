@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixa 1</title>
+    <style>
+        h1 { /*configuração do bloco h1 */
+            background-color: aqua;
+            width: 300px;
+            height: 300px;
+            border: 5px solid black; /* border é a borda*/
+
+            /*padding é o preenchimento da caixa*/
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            
+           /*margem externa da caixa*/
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            /* margin: auto serve para deixar a caixa no meio*/
+
+            /* traçado entre a margem e a borda da caixa*/
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: aquamarine;
+        }
+
+        /* Para simplificar os elementos de configutações da caixa, é só colocar tudo na mesma linha como no exemplo do border e no sentio horário
+        ex:
+        paddging: 10px 15px 20px 5px solid black */
+
+        a {
+           border: 1px dashed aqua;
+        }
+
+        /* O comando 'display' faz com que seja possível realizar a alteração no tipo da caixa:
+         display: inline;
+         display: block;  */
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Caixa Box-Level</h1> <!--Caixa Box-level-->
+    <p>Paragrafos também são box-level, mas os <a href="links">links são  exemplos de caixas inline-leves.</a></p> <!--Caixa box-level-->
+    
+</body>
+</html>
