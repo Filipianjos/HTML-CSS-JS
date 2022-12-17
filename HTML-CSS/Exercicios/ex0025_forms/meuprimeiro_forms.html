@@ -5,6 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <style>
+        h1, h2 {
+            background-color: rgba(128, 128, 128, 0.534);
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        form {
+            border: 1px solid black;
+            padding-left: 15px;
+        }
+
+        span {
+            font-weight: bolder;
+        }
+
+        .alert {
+            border: 1px solid red;
+            background-color: rgba(233, 136, 136, 0.473);
+            padding: 20px;
+            width: 400px;
+        }
+
+    </style>
 </head>
 <body>
     <h1>Meu Primeiro Formulário</h1>
@@ -18,5 +42,22 @@
 
         <p><input type="submit" value="Enviar"></p>
     </form>
+    
+    <h2>Métodos GET e POST</h2>
+        <p>Dentro do HTML, existem dois métodos de formulários para recebimento de dados. São eles:
+            <ul><li><span>GET:</span> Exibe o preenchimento do formulário  na pesquisa</li></ul>
+
+            <ul><li><span>POST:</span> Oculta o metodo de pesquisa na URL.</li></ul>
+
+            <P><span>OBS:</span> É importante verificar que, o POST não é 100% seguro, pois através do "inspecionar elemento", é possível localizar os dados preenchido. Por isso, existe a necessidade de criptografia das informações através de <span>https</span></P>
+        </p>
+        <h3>Quando usar GET e POST?</h3>
+            <p>Quando os dados preenchidos não forem sensíveis, pode ser usado o método GET, porém se forem, então utiliza-se o POST</p>
+
+        <div class="alert">
+            <h3>IMPORTANTE!!</h3>
+            <p>O método GET possui limite de até 3 mil bytes que é equivalente a 3 mil letras. Além de não poder ser utilizado para envio de fotos.</p>
+        </div>
+
 </body>
 </html>
